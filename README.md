@@ -8,7 +8,7 @@
 <img align="right" alt="Coding" width="300" src="https://private-user-images.githubusercontent.com/74038190/256977180-54fb7eef-b1e8-41dc-be97-57e4180b3b24.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTUzNjcwNjYsIm5iZiI6MTcxNTM2Njc2NiwicGF0aCI6Ii83NDAzODE5MC8yNTY5NzcxODAtNTRmYjdlZWYtYjFlOC00MWRjLWJlOTctNTdlNDE4MGIzYjI0LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTEwVDE4NDYwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBkM2I5Yzk1NmQwZGZkMTYxMWFiOTAxY2EzNzFlNjNmMWIzOGM4NGViZTMwODgxYmQxZWVhMDQ5MGYwNWMxNjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.6-p9IhAVDbhewW4xig_QxI6827aMPZTILbOAzdYhOy8">
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ankushve&label=Profile%20views&color=0e75b6&style=flat" alt="ankushve" /> </p>
+
 
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Crystal%20Ball.png" alt="Girl in a jacket" width="20" height="20">  I’m currently working on **GenAI/Web Dev**
 
