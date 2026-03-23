@@ -52,8 +52,4 @@
 - Emotion Detection using CNN
 - Conference Website using React & Tailwind CSS
 
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sinhaaarushi&show_icons=true&locale=en&layout=compact" alt="sinhaaarushi" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sinhaaarushi&show_icons=true&locale=en" alt="sinhaaarushi" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sinhaaarushi&" alt="sinhaaarushi" /></p>
