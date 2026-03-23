@@ -16,7 +16,7 @@
 
 
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Crystal%20Ball.png" alt="Girl in a jacket" width="20" height="20">  - 🔭 I’m currently working on **Generative AI and Retrieval-Augmented Generation (RAG) Systems**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Crystal%20Ball.png" alt="Girl in a jacket" width="20" height="20">  -  I’m currently working on **Generative AI and Retrieval-Augmented Generation (RAG) Systems**
 
 
 
@@ -25,18 +25,18 @@
 
 
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Writing%20Hand%20Medium-Light%20Skin%20Tone.png" alt="Girl in a jacket" width="20" height="20"> - 🌱 I’m currently learning **Distributed Systems, LLM Applications, and Cloud Deployment**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Writing%20Hand%20Medium-Light%20Skin%20Tone.png" alt="Girl in a jacket" width="20" height="20"> -  I’m currently learning **Distributed Systems, LLM Applications, and Cloud Deployment**
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Girl in a jacket" width="20" height="20">- 👯 I’m interested in collaborating on **AI/ML and Backend Projects**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Girl in a jacket" width="20" height="20">-  I’m interested in collaborating on **AI/ML and Backend Projects**
 
 
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right%20Light%20Skin%20Tone.png" alt="Girl in a jacket" width="20" height="20"> All of my projects are available at [sinhaaarushi](https://github.com/sinhaaarushi)
 
-- <img src="https://www.emojiall.com/images/240/telegram/1f4ac.gif" alt="Girl in a jacket" width="20" height="20"> - 💬 Ask me about **Machine Learning, Computer Vision, NLP, RAG, and Data Structures**
+- <img src="https://www.emojiall.com/images/240/telegram/1f4ac.gif" alt="" width="20" height="20"> - 💬 Ask me about **Machine Learning, Computer Vision, NLP, RAG, and Data Structures**
 
 -  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smiling%20Face%20with%20Open%20Hands.png" alt="Girl in a jacket" width="20" height="20">- 📫 Reach me at **sinhaaarushi0702@gmail.com**
 
--  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Raising%20Hands%20Light%20Skin%20Tone.png" alt="Girl in a jacket" width="20" height="20"> - 🔗 Know about my experiences **https://www.linkedin.com/in/aarushisinha07/**
+-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/" alt="" width="20" height="20"> - 🔗 Know about my experiences **https://www.linkedin.com/in/aarushisinha07/**
  
 <h3 align="left">Connect with me:</h3>
 <p align="left">
