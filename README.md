@@ -27,9 +27,9 @@ Systems-focused engineer working on real-time infrastructure, simulation, and LL
 
 ---
 
-### Selected work
+Systems > features. Focus on behaviour, trade-offs, and failure modes.
 
-Systems > features. Each project focuses on behaviour, trade-offs, and failure modes.
+### Selected work
 
 **[System Decision Simulator](https://github.com/sinhaaarushi/System-Decision-Simulator)**
 
@@ -55,32 +55,24 @@ Systems > features. Each project focuses on behaviour, trade-offs, and failure m
 | **Solution** | Implemented a RAG pipeline using retrieval + generation to answer queries with improved relevance and context |
 | **Stack** | Python, OpenSearch, HuggingFace, retrieval pipelines |
 
----
+### Currently building
+
+- Increasing realism and control in task routing simulation (latency, queue behavior)
+- Strengthening AUTODRIVE decision pipeline across perception → action flow
+- Studying system behavior under failure and uneven load conditions
+
+### Metrics
+
+<div align="center">
+  <img height="145" src="https://github-readme-stats.vercel.app/api?username=sinhaaarushi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&line_height=24&hide_rank=true&hide=stars,prs,issues,contribs" alt="GitHub stats" />
+  <img height="145" src="https://streak-stats.demolab.com/?user=sinhaaarushi&theme=tokyonight&hide_border=true" alt="Streak" />
+</div>
 
 ### Thinking about
 
 - Where simulation replaces intuition in system design
 - How LLM systems fail silently in production
 - Making infra decisions observable, not assumed
-
----
-
-### Metrics
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sinhaaarushi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&line_height=24&hide_rank=true&hide=stars,prs,issues,contribs" alt="GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com/?user=sinhaaarushi&theme=tokyonight&hide_border=true" alt="Streak" />
-</div>
-
-<br/>
-
-### Currently building
-
-- Improving real-time simulation fidelity in System Decision Simulator
-- Expanding AUTODRIVE with better coordination between perception and decision pipelines
-- Exploring system behavior under failure scenarios and load
-
-<br/>
 
 ### Stack (compact)
 
