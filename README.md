@@ -55,6 +55,14 @@ Systems > features. Focus on behaviour, trade-offs, and failure modes.
 | **Solution** | Implemented a RAG pipeline using retrieval + generation to answer queries with improved relevance and context |
 | **Stack** | Python, OpenSearch, HuggingFace, retrieval pipelines |
 
+**[AI-Collections-Agent-Simulator](https://github.com/sinhaaarushi/AI-Collections-Agent-Simulator)**
+
+| | |
+| --- | --- |
+| **Problem** | Coordinating multiple agents for decision-making and task handling lacks clear modeling and evaluation under different conditions |
+| **Solution** | Built an agent-based simulation system to model interactions, decision flows, and outcomes across multiple agents in a controlled environment |
+| **Stack** | Python, agent logic, simulation workflows, backend processing |
+
 ### Currently building
 
 - Increasing realism and control in task routing simulation (latency, queue behavior)
