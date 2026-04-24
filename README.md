@@ -5,7 +5,13 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=640&lines=Systems+and+infrastructure+with+clarity;Applied+AI+with+safety+and+observability;Shipping+end-to-end+where+it+matters" alt="" />
+  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=640&lines=Building+systems+that+behave+under+pressure;Real-time+infra,+routing,+and+failure-aware+design;Applied+AI+with+guardrails,+not+guesswork" alt="" />
+</div>
+
+<div align="center">
+
+Systems-focused engineer working on real-time infrastructure, simulation, and LLM safety pipelines
+
 </div>
 
 <br/>
@@ -14,14 +20,16 @@
 
 ### Focus
 
-- Building **full-stack and backend systems** where behaviour under load and operator visibility actually matter.
-- Going deeper on **routing, backpressure, and real-time state** — not only the happy path.
-- Learning how **LLM-facing systems** fail (prompt injection, data leakage, noisy pipelines) and how to **contain** them with engineering, not slogans.
-- Care about **boring reliability**: reproducible runs, tests that touch real HTTP/WebSocket surfaces, CI that stays fast.
+- Designing systems that don't break under load — routing, backpressure, real-time state
+- Building simulation-first tools to reason about system behaviour instead of guessing
+- Exploring LLM pipelines under adversarial conditions (injection, leakage, noisy inputs)
+- Prioritising observability and reproducibility over surface-level features
 
 ---
 
 ### Selected work
+
+Systems > features. Each project focuses on behaviour, trade-offs, and failure modes.
 
 <table>
 <tr>
@@ -31,7 +39,7 @@
 
 | | |
 | --- | --- |
-| **Problem** | Hard to reason about load-balancing policies when everything is hand-wavy or slide-only. |
+| **Problem** | Simulating real-time task routing decisions under load — with measurable trade-offs |
 | **Solution** | Tick-based simulator with **WebSocket** live feed, **metrics**, **replay**, **seeded RNG**, twin strategy compare, JSON export. |
 | **Stack** | Node, Express, `ws`, React, Vite, TypeScript, Vitest, GitHub Actions |
 
@@ -42,13 +50,21 @@
 
 | | |
 | --- | --- |
-| **Problem** | Untrusted text hits models and downstream stores; pipelines need **validation, redaction, and traceability**. |
+| **Problem** | Protecting LLM pipelines from unsafe, unstructured, or adversarial input |
 | **Solution** | Defensive **ingestion + policy layer** before inference/storage, with structured processing and auditable paths. |
 | **Stack** | Python, HTTP services, structured logging, queues/storage as the pipeline needs — see repo. |
 
 </td>
 </tr>
 </table>
+
+---
+
+### Thinking about
+
+- Where simulation replaces intuition in system design
+- How LLM systems fail silently in production
+- Making infra decisions observable, not assumed
 
 ---
 
