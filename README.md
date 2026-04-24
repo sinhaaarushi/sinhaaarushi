@@ -72,21 +72,15 @@ Systems > features. Each project focuses on behaviour, trade-offs, and failure m
   <img height="165" src="https://streak-stats.demolab.com/?user=sinhaaarushi&theme=tokyonight&hide_border=true" alt="Streak" />
 </div>
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sinhaaarushi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-</div>
-
-<sub>Third-party cards; language chart omits private repos.</sub>
-
----
+<br/>
 
 ### Currently building
 
 - Improving real-time simulation fidelity in System Decision Simulator
-- Expanding LLM input firewall with stronger validation and traceability
-- Exploring failure scenarios in distributed-like environments
+- Expanding AUTODRIVE with better coordination between perception and decision pipelines
+- Exploring system behavior under failure scenarios and load
 
----
+<br/>
 
 ### Stack (compact)
 
