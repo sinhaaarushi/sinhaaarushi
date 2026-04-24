@@ -1,0 +1,122 @@
+# Daily refresh: contribution snake, recent public activity, quote block in README.
+name: Profile refresh
+
+on:
+  schedule:
+    - cron: '35 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme-update
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate contribution snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Patch README (activity + quote)
+        uses: actions/github-script@v7
+        env:
+          OWNER: ${{ github.repository_owner }}
+        with:
+          script: |
+            const fs = require('fs');
+            const owner = process.env.OWNER;
+            const readmePath = 'README.md';
+            let readme = fs.readFileSync(readmePath, 'utf8');
+
+            const { data: events } = await github.rest.activity.listPublicEventsForUser({
+              username: owner,
+              per_page: 15
+            });
+
+            const lines = [];
+            const seen = new Set();
+            for (const ev of events) {
+              let line = null;
+              if (ev.type === 'PushEvent') {
+                const repo = ev.repo.name.split('/')[1];
+                const commits = ev.payload.commits || [];
+                const msg = (commits[0]?.message || 'push').split('\n')[0].trim();
+                line = `**${repo}** — ${msg.slice(0, 88)}${msg.length > 88 ? '…' : ''}`;
+              } else if (ev.type === 'PullRequestEvent') {
+                const repo = ev.repo.name.split('/')[1];
+                const pr = ev.payload.pull_request;
+                line = `**${repo}** — PR ${ev.payload.action}: ${(pr?.title || '').slice(0, 72)}`;
+              } else if (ev.type === 'IssuesEvent') {
+                const repo = ev.repo.name.split('/')[1];
+                const issue = ev.payload.issue;
+                line = `**${repo}** — Issue ${ev.payload.action}: ${(issue?.title || '').slice(0, 72)}`;
+              }
+              if (line && !seen.has(line)) {
+                seen.add(line);
+                lines.push(`- ${line}`);
+              }
+              if (lines.length >= 6) break;
+            }
+
+            const safeInsert = (s) =>
+              String(s)
+                .replace(/<!--/g, '')
+                .replace(/-->/g, '')
+                .replace(/`/g, "'")
+                .replace(/\$\{/g, '');
+
+            const activityBody = safeInsert(
+              lines.length > 0
+                ? lines.join('\n')
+                : '_No recent public events in the last fetches — private work does not appear here._'
+            );
+
+            readme = readme.replace(
+              /<!--RECENT_ACTIVITY:START-->[\s\S]*?<!--RECENT_ACTIVITY:END-->/m,
+              '<!--RECENT_ACTIVITY:START-->\n' +
+                activityBody +
+                '\n<!--RECENT_ACTIVITY:END-->'
+            );
+
+            let quote = '_Could not load quote — try again tomorrow._';
+            try {
+              const res = await fetch('https://zenquotes.io/api/random');
+              const data = await res.json();
+              if (Array.isArray(data) && data[0]?.q && data[0]?.a) {
+                quote =
+                  '_"' +
+                  safeInsert(data[0].q) +
+                  '"_ — **' +
+                  safeInsert(data[0].a) +
+                  '**';
+              }
+            } catch (_) {}
+
+            readme = readme.replace(
+              /<!--QUOTE:START-->[\s\S]*?<!--QUOTE:END-->/m,
+              '<!--QUOTE:START-->\n' + quote + '\n<!--QUOTE:END-->'
+            );
+
+            fs.writeFileSync(readmePath, readme);
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "profile: refresh snake, activity, quote"
+            git push
+          fi
