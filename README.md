@@ -31,10 +31,6 @@ Systems-focused engineer working on real-time infrastructure, simulation, and LL
 
 Systems > features. Each project focuses on behaviour, trade-offs, and failure modes.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 **[System Decision Simulator](https://github.com/sinhaaarushi/System-Decision-Simulator)**
 
 | | |
@@ -43,20 +39,21 @@ Systems > features. Each project focuses on behaviour, trade-offs, and failure m
 | **Solution** | Tick-based simulator with **WebSocket** live feed, **metrics**, **replay**, **seeded RNG**, twin strategy compare, JSON export. |
 | **Stack** | Node, Express, `ws`, React, Vite, TypeScript, Vitest, GitHub Actions |
 
-</td>
-<td width="50%" valign="top">
-
-**[LLM input firewall & data processing](https://github.com/sinhaaarushi/llm-input-firewall)**
+**[AUTODRIVE](https://github.com/sinhaaarushi/AUTODRIVE)**
 
 | | |
 | --- | --- |
-| **Problem** | Protecting LLM pipelines from unsafe, unstructured, or adversarial input |
-| **Solution** | Defensive **ingestion + policy layer** before inference/storage, with structured processing and auditable paths. |
-| **Stack** | Python, HTTP services, structured logging, queues/storage as the pipeline needs — see repo. |
+| **Problem** | Simulating autonomous driving requires coordinating perception, decision-making, and control across multiple models |
+| **Solution** | Built a multi-model pipeline combining computer vision and decision logic to simulate real-time driving behavior |
+| **Stack** | Python, computer vision, deep learning, simulation pipeline |
 
-</td>
-</tr>
-</table>
+**[rag-product-support-chatbot](https://github.com/sinhaaarushi/rag-product-support-chatbot)**
+
+| | |
+| --- | --- |
+| **Problem** | Product support systems struggle to retrieve accurate, context-aware information from large knowledge bases |
+| **Solution** | Implemented a RAG pipeline using retrieval + generation to answer queries with improved relevance and context |
+| **Stack** | Python, OpenSearch, HuggingFace, retrieval pipelines |
 
 ---
 
