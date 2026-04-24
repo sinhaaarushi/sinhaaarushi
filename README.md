@@ -71,7 +71,7 @@ Systems > features. Each project focuses on behaviour, trade-offs, and failure m
 ### Metrics
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sinhaaarushi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&hide=issues&line_height=24" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sinhaaarushi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&line_height=24&hide_rank=true&hide=stars,prs,issues,contribs" alt="GitHub stats" />
   <img height="165" src="https://streak-stats.demolab.com/?user=sinhaaarushi&theme=tokyonight&hide_border=true" alt="Streak" />
 </div>
 
@@ -79,37 +79,15 @@ Systems > features. Each project focuses on behaviour, trade-offs, and failure m
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sinhaaarushi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
 </div>
 
-<sub>Cards are served by community widgets; private repos may not appear in language breakdown.</sub>
+<sub>Third-party cards; language chart omits private repos.</sub>
 
 ---
 
-### Contribution graph
+### Currently building
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sinhaaarushi/sinhaaarushi/main/dist/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sinhaaarushi/sinhaaarushi/main/dist/github-snake.svg" />
-    <img alt="Contribution snake" width="100%" src="https://raw.githubusercontent.com/sinhaaarushi/sinhaaarushi/main/dist/github-snake.svg" />
-  </picture>
-</div>
-
-<sub>Snake SVG is generated daily by Actions. Run **Actions → Profile refresh → Run workflow** once after first push if images 404.</sub>
-
----
-
-### Recent public activity
-
-<!--RECENT_ACTIVITY:START-->
-_This block updates automatically on schedule._
-<!--RECENT_ACTIVITY:END-->
-
----
-
-### Quote
-
-<!--QUOTE:START-->
-_Static quote placeholder — workflow replaces this daily._
-<!--QUOTE:END-->
+- Improving real-time simulation fidelity in System Decision Simulator
+- Expanding LLM input firewall with stronger validation and traceability
+- Exploring failure scenarios in distributed-like environments
 
 ---
 
