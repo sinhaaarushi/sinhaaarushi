@@ -10,7 +10,7 @@
 
 <div align="center">
 
-Systems-focused engineer working on real-time infrastructure, simulation, and LLM safety pipelines
+Systems focused engineer working on real time infrastructure, simulation, and LLM safety pipelines
 
 </div>
 
@@ -20,10 +20,10 @@ Systems-focused engineer working on real-time infrastructure, simulation, and LL
 
 ### Focus
 
-- Designing systems that don't break under load routing, backpressure, real-time state
-- Building simulation-first tools to reason about system behaviour instead of guessing
+- Designing systems that don't break under load routing, backpressure, real time state
+- Building simulation first tools to reason about system behaviour instead of guessing
 - Exploring LLM pipelines under adversarial conditions (injection, leakage, noisy inputs)
-- Prioritising observability and reproducibility over surface-level features
+- Prioritising observability and reproducibility over surface level features
 
 ---
 
