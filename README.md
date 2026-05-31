@@ -20,14 +20,14 @@ Systems-focused engineer working on real-time infrastructure, simulation, and LL
 
 ### Focus
 
-- Designing systems that don't break under load — routing, backpressure, real-time state
+- Designing systems that don't break under load routing, backpressure, real-time state
 - Building simulation-first tools to reason about system behaviour instead of guessing
 - Exploring LLM pipelines under adversarial conditions (injection, leakage, noisy inputs)
 - Prioritising observability and reproducibility over surface-level features
 
 ---
 
-Systems > features. Focus on behaviour, trade-offs, and failure modes.
+Systems > features. Focus on behaviour, trade offs, and failure modes.
 
 ### Selected work
 
@@ -35,7 +35,7 @@ Systems > features. Focus on behaviour, trade-offs, and failure modes.
 
 | | |
 | --- | --- |
-| **Problem** | Simulating real-time task routing decisions under load — with measurable trade-offs |
+| **Problem** | Simulating real time task routing decisions under load with measurable trade offs |
 | **Solution** | Tick-based simulator with **WebSocket** live feed, **metrics**, **replay**, **seeded RNG**, twin strategy compare, JSON export. |
 | **Stack** | Node, Express, `ws`, React, Vite, TypeScript, Vitest, GitHub Actions |
 
@@ -43,15 +43,15 @@ Systems > features. Focus on behaviour, trade-offs, and failure modes.
 
 | | |
 | --- | --- |
-| **Problem** | Simulating autonomous driving requires coordinating perception, decision-making, and control across multiple models |
-| **Solution** | Built a multi-model pipeline combining computer vision and decision logic to simulate real-time driving behavior |
+| **Problem** | Simulating autonomous driving requires coordinating perception, decision making, and control across multiple models |
+| **Solution** | Built a multi model pipeline combining computer vision and decision logic to simulate real time driving behavior |
 | **Stack** | Python, computer vision, deep learning, simulation pipeline |
 
 **[rag-product-support-chatbot](https://github.com/sinhaaarushi/rag-product-support-chatbot)**
 
 | | |
 | --- | --- |
-| **Problem** | Product support systems struggle to retrieve accurate, context-aware information from large knowledge bases |
+| **Problem** | Product support systems struggle to retrieve accurate, context aware information from large knowledge bases |
 | **Solution** | Implemented a RAG pipeline using retrieval + generation to answer queries with improved relevance and context |
 | **Stack** | Python, OpenSearch, HuggingFace, retrieval pipelines |
 
@@ -59,8 +59,8 @@ Systems > features. Focus on behaviour, trade-offs, and failure modes.
 
 | | |
 | --- | --- |
-| **Problem** | Coordinating multiple agents for decision-making and task handling lacks clear modeling and evaluation under different conditions |
-| **Solution** | Built an agent-based simulation system to model interactions, decision flows, and outcomes across multiple agents in a controlled environment |
+| **Problem** | Coordinating multiple agents for decision making and task handling lacks clear modeling and evaluation under different conditions |
+| **Solution** | Built an agent based simulation system to model interactions, decision flows, and outcomes across multiple agents in a controlled environment |
 | **Stack** | Python, agent logic, simulation workflows, backend processing |
 
 ### Currently building
